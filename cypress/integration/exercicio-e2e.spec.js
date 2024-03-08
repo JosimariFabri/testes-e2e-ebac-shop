@@ -10,11 +10,11 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         E validando minha compra ao final */
 
     beforeEach(() => {
-        cy.visit('/')
+        cy.visit('http://lojaebac.ebaconline.art.br')
     });
 
     it('Deve fazer um pedido na loja Ebac Shop de ponta a ponta', () => {
-        //TODO 
+        cy.visit('minha-conta')
     });
 
 
